@@ -1,17 +1,17 @@
 {
-    "name": "specindia/contactform",
+    "name": "budhaspec/contactform",
     "description": "Send contact inquiry",
     "type": "package",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Specindia\\Contactform\\": "src/"
+            "Budhaspec\\Contactform\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Specindia\\Contactform\\ContactFormServiceProvider"
+                "Budhaspec\\Contactform\\ContactFormServiceProvider"
             ]
         }
     },

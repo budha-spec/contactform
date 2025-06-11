@@ -1,7 +1,7 @@
 <?php
  
  use Illuminate\Support\Facades\Route;
- use Specindia\Contactform\Http\Controllers\ContactFormController;
+ use Budhaspec\Contactform\Http\Controllers\ContactFormController;
 
  Route::middleware(['guest', 'web'])->group(function(){
      Route::get('contact', [ContactFormController::class, 'index']);

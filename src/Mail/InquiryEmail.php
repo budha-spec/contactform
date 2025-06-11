@@ -1,6 +1,6 @@
 <?php
 
-namespace Specindia\Contactform\Mail;
+namespace Budhaspec\Contactform\Mail;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

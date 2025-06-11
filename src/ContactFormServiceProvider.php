@@ -1,6 +1,6 @@
 <?php
 
-namespace Specindia\Contactform;
+namespace Budhaspec\Contactform;
 
 use Illuminate\Support\ServiceProvider;
 

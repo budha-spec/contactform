@@ -1,12 +1,12 @@
 <?php
 
-namespace Specindia\Contactform\Http\Controllers;
+namespace Budhaspec\Contactform\Http\Controllers;
 
-use Specindia\Contactform\Models\Contact;
+use Budhaspec\Contactform\Models\Contact;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\Mail;
-use Specindia\Contactform\Mail\InquiryEmail;
+use Budhaspec\Contactform\Mail\InquiryEmail;
 
 class ContactFormController extends BaseController
 {

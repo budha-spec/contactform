@@ -1,6 +1,6 @@
 <?php
 
-namespace Specindia\Contactform\Models;
+namespace Budhaspec\Contactform\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
