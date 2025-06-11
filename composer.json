@@ -1,0 +1,25 @@
+{
+    "name": "specindia/contactform",
+    "description": "Send contact inquiry",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Specindia\\Contactform\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Specindia\\Contactform\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "budha-spec",
+            "email": "budha.jethava@spec-india.com"
+        }
+    ],
+    "require": {}
+}
