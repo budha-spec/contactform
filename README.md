@@ -1,3 +1,7 @@
+## Getting started
+
+Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/10.x/installation)
+
 ## About Contactform
 	This package provide a feature to submit user inquiry and send an inquiry email to admin.
 
