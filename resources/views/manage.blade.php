@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="0Ja2h9xhCu_OAXkDVjheZDLvO4GH7rMCv97kNiI-VY0" />
     <script src="{{ url('contactform-assets/js/jquery-3.7.1.min.js') }}"></script>
     <link href="{{ url('contactform-assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <script src="{{ url('contactform-assets/js/bootstrap.min.js') }}"></script>
