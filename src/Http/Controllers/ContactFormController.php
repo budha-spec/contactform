@@ -38,15 +38,15 @@ class ContactFormController extends BaseController
             'subject' => 'required|max:250',
             'message' => 'required|max:2000'
         ]);
+        
         Contact::create($validated);
 
         $adminEmail = config("contactform.admin_email");
         if (!empty($adminEmail)) {
             Mail::to($adminEmail)->send(new InquiryEmail($validated));
         }
-        
-        return back()->with('success', 'Your inquiry has been sent!')
-        ->withInput($validated);
+
+        return back()->with('success', 'Your inquiry has been sent!');
     }
 
     /**
